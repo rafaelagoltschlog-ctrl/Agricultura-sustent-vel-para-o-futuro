@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriTech Sustentável | O Futuro do Campo</title>
+    <!-- Google Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo"><i class="fas fa-leaf"></i> Agri<span>Tech</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Agricultura Sustentável para o Futuro</h1>
+            <p>Conheça as tecnologias e práticas que estão revolucionando o cultivo moderno, unindo produtividade e preservação ambiental.</p>
+            <a href="#sobre" class="btn-primary">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Sobre a Agricultura -->
+    <section id="sobre" class="about section-padding">
+        <div class="container grid">
+            <div class="about-text">
+                <h2>Sobre a Agricultura Moderna</h2>
+                <p>A agricultura sustentável busca atender às necessidades atuais de produção de alimentos sem comprometer os recursos das futuras gerações. Através de práticas regenerativas e do uso consciente da terra, garantimos um solo mais fértil e alimentos mais saudáveis.</p>
+                <p>Nosso foco está em integrar técnicas ancestrais com a inovação tecnológica, reduzindo o desperdício e otimizando o uso de água e energia.</p>
+            </div>
+            <div class="about-img">
+                <img src="https://unsplash.com" alt="Plantação verde">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Cards / Tecnologias -->
+    <section id="tecnologias" class="cards-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Nossas Soluções e Práticas</h2>
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Plantio Inteligente</h3>
+                    <p>Uso de sensores de solo para determinar o momento ideal de plantio, garantindo maior taxa de germinação e economia de sementes.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <i class="fas fa-tint"></i>
+                    <h3>Irrigação Eficiente</h3>
+                    <p>Sistemas automatizados que fornecem a quantidade exata de água que a planta precisa, evitando o desperdício hídrico.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <i class="fas fa-recycle"></i>
+                    <h3>Sustentabilidade</h3>
+                    <p>Rotação de culturas e adubação natural para manter a terra sempre rica, promovendo um ecossistema agrícola equilibrado.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <i class="fas fa-tractor"></i>
+                    <h3>Tecnologia no Campo</h3>
+                    <p>Monitoramento por drones e uso de maquinário com GPS para pulverização e colheita de alta precisão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Imagens -->
+    <section id="galeria" class="gallery section-padding">
+        <div class="container">
+            <h2 class="section-title">Galeria de Imagens</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://unsplash.com" alt="Trator no campo"></div>
+                <div class="gallery-item"><img src="https://unsplash.com" alt="Estufa tecnológica"></div>
+                <div class="gallery-item"><img src="https://unsplash.com" alt="Colheita de milho"></div>
+                <div class="gallery-item"><img src="https://unsplash.com" alt="Agricultor mexendo em tablet"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estatísticas Animadas -->
+    <section class="stats section-padding">
+        <div class="container grid-stats">
+            <div class="stat-box">
+                <i class="fas fa-globe"></i>
+                <h3 class="counter" data-target="1500">0</h3>
+                <p>Hectares Monitorados</p>
+            </div>
+            <div class="stat-box">
+                <i class="fas fa-water"></i>
+                <h3 class="counter" data-target="45">0</h3>
+                <p>% Economia de Água</p>
+            </div>
+            <div class="stat-box">
+                <i class="fas fa-users"></i>
+                <h3 class="counter" data-target="300">0</h3>
+                <p>Produtores Parceiros</p>
+            </div>
+            <div class="stat-box">
+                <i class="fas fa-leaf"></i>
+                <h3 class="counter" data-target="100">0</h3>
+                <p>% Práticas Sustentáveis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phone" placeholder="Seu Telefone" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                <p id="form-msg" class="form-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AgriTech. Todos os direitos reservados. Promovendo o cultivo sustentável.</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <a href="#" id="back-to-top" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
